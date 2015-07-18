@@ -1,6 +1,7 @@
-# The Ultimate vimrc
+﻿# Note
+This repo is forked from [amix](https://github.com/amix/vimrc) for the convenience of bigeyers. For more details please refer to the original repo. The following guides are based on [amix's README.md](https://github.com/amix/vimrc/blob/master/README.md).
 
-Over the last 8 years I have used and tweaked Vim. This is my Ultimate vimrc.
+# The Ultimate vimrc
 
 There are two versions:
 
@@ -9,11 +10,15 @@ There are two versions:
 
 I would of course recommend using the awesome version.
 
+## Pre-installation
+You may need to setup ssh keys for [server9 GitLab](http://bigeye-s9.oicp.net:8000) if you haven't do so.
+
 ## How to install the Awesome version?
 The awesome version includes a lot of great plugins, configurations and color schemes that make Vim a lot better. To install it simply do following:
 
-	git clone git://github.com/amix/vimrc.git ~/.vim_runtime
+	git clone git@bigeye-s9.oicp.net:yanziang/vimrc.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_awesome_vimrc.sh
+	sudo apt-get install ctags
 
 The taglist.vim plugin will require ctags (http://ctags.sourceforge.net) (Debian: apt-get install ctags)
 
@@ -24,8 +29,9 @@ The basic version is basically just one file and no plugins. You can check out [
 
 This is useful to install on remote servers where you don't need many plugins and you don't do many edits.
 
-	git clone git://github.com/amix/vimrc.git ~/.vim_runtime
+	git clone git@bigeye-s9.oicp.net:yanziang/vimrc.git ~/.vim_runtime
 	sh ~/.vim_runtime/install_basic_vimrc.sh
+	sudo apt-get install ctags
 
 
 ## How to install on Windows?
